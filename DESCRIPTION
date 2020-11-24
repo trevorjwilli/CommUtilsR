@@ -1,0 +1,19 @@
+Package: CommUtilsR
+Title: Utility Functions for Working with Community Data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Trevor",
+           family = "Williams",
+           role = c("aut", "cre"),
+           email = "trevorjwilli@gmail.com")
+Description: This package contains several functions that are useful for the manipulation
+    of community datasets, including the conversion of occurrence records in the form
+    of csv's to presence/absence matrices or abundance matrices, and the merging of 
+    data from separate csvs (i.e. locality information csv and environmental data csv).
+    Future development will also allow researchers to clip presence/absence matrices from
+    spatial polygons data.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
